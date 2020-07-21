@@ -1,0 +1,4 @@
+select LASTNAME, FIRSTNME, MIDINIT, SALARY from DB2INST1.EMPLOYEE
+where not (job in ('MANAGER', 'PRES'))
+order by SALARY desc
+LIMIT 5;

@@ -1,0 +1,3 @@
+select EMPNO, LASTNAME, SALARY, BONUS from DB2INST1.EMPLOYEE
+where BONUS between 800 and 1000
+order by BONUS asc, EMPNO;

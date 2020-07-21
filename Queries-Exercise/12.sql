@@ -1,0 +1,3 @@
+select EMPNO, LASTNAME, SALARY, WORKDEPT from DB2INST1.EMPLOYEE
+where WORKDEPT between 'A00' and 'C01'
+order by LASTNAME, EMPNO;
