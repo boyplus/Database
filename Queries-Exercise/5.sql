@@ -1,0 +1,2 @@
+select LASTNAME, SALARY, BONUS from DB2INST1.EMPLOYEE
+where SEX = 'M';
